@@ -1,0 +1,210 @@
+body {
+    background-color: #0e0d0d;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-nav{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 50px;
+}
+.btn-nav-unit:hover{
+    opacity: 0.5;
+    color: #585555;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.banner{
+    width: 75%;
+    height: 25%;
+    justify-content: center;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px; 
+}
+.about{
+    flex: 1;
+}
+.mi-imagen{
+    flex: 1; 
+    margin-left: 20px;
+}
+.services {
+    flex: 1;
+    margin: 0 20px;
+}
+.services-title{
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+.test-title{
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+.testimonios{
+    flex: 1;
+    margin: 0 20px;
+    align-items: center;
+}
+.contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label,
+form textarea,
+form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #1a1d1f;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+    color: #777;
+}
+/* Estilo para el contenedor principal de las tarjetas */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ajusta el espacio entre las columnas */
+}
+
+/* Estilo para cada tarjeta individual */
+.card {
+  width: 23%; /* Ajusta el ancho de cada tarjeta según tus necesidades */
+  margin-bottom: 20px; /* Ajusta el espacio entre las filas */
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Borde opcional para las tarjetas */
+  border-radius: 8px; /* Bordes redondeados para las tarjetas */
+  padding: 15px; /* Espaciado interno de la tarjeta */
+}
+
+/* Ajustes para dispositivos pequeños (responsive) */
+@media (max-width: 768px) {
+  .card {
+    width: 48%; /* Cambia el ancho de la tarjeta para dispositivos más pequeños */
+  }
+}
+
+.card{
+    width: 18rem;
+    display: flexbox;
+    margin: 5px;
+}
+.pod-card-unit:hover{
+    opacity: 0.5;
+    color: #fff;
+}
+.card-img-top{
+    align-items: center;
+}
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  opacity: 0.5;
+  color: #585555;
+}
+.podcast-card{
+   justify-content: center;
+   align-items: center;
+   margin: 100px;
+   display: flex;
+   gap: 30px;
+}
+.podcast-card:hover{
+    opacity: 0.5;
+    color: #585555;
+}
+.podcasttitle{
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+.p-podcast{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.redes{
+    justify-content: center;
+    display: flex;
+    
+}
+.nettitle{
+    justify-content: center;
+    display: flex;
+    padding: 100px;
+}
+.netmedia{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.pod-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.podcast-img{
+    justify-content: center;
+    display: flex;
+    margin: 7.5%;
+}
